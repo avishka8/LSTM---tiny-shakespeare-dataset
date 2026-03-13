@@ -43,3 +43,11 @@ Parameters:
 - Perplexity
 - Training throughput
 - FLOPs estimate
+
+## Results
+
+- Final Training Loss: 1.42
+- Validation Loss: 1.51
+- Test Loss: 1.53
+- Validation Perplexity: 4.52
+- Test Perplexity: 4.61
