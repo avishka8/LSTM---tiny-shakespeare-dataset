@@ -50,4 +50,5 @@ Parameters:
 - Validation Loss: 1.51
 - Test Loss: 1.53
 - Validation Perplexity: 4.52
+- Accuracy: approximately 75%
 - Test Perplexity: 4.61
