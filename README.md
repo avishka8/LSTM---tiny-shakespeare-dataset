@@ -1,11 +1,16 @@
 # LSTM Language Model on Tiny Shakespeare
 
+<<<<<<< HEAD
 A character-level LSTM language model trained on the Tiny Shakespeare dataset using PyTorch, predicting the next character given a sequence of preceding characters.
+=======
+This project trains a character-level LSTM language model on the Tiny Shakespeare dataset using PyTorch.
+>>>>>>> 846cbd33afffc4e9daa7f4ef31339abf64c459c0
 
 ## Features
 
 - Character-level tokenization
 - Next-token prediction objective
+<<<<<<< HEAD
 - Train / validation / test split
 - Cross-entropy loss and perplexity evaluation
 - Loss curve visualization
@@ -18,11 +23,27 @@ A character-level LSTM language model trained on the Tiny Shakespeare dataset us
 - **Train:** 75%
 - **Validation:** 5%
 - **Test:** 20%
+=======
+- Train / Validation / Test split
+- Cross-entropy loss and perplexity evaluation
+- Throughput and FLOPs estimation
+
+## Dataset
+
+Tiny Shakespeare dataset  
+40,000 lines
+
+Split:
+- Train: 30,000
+- Validation: 2,000
+- Test: 8,000
+>>>>>>> 846cbd33afffc4e9daa7f4ef31339abf64c459c0
 
 ## Model
 
 LSTM Language Model
 
+<<<<<<< HEAD
 | Parameter       | Value |
 |------------------|-------|
 | Embedding size   | 128   |
@@ -132,3 +153,33 @@ See `sample_output.txt` for the full set of generated samples.
 - Add dropout / a second LSTM layer and compare
 - Add word-level or subword (BPE) tokenization for more coherent generation
 - Compare against a small Transformer baseline
+=======
+Parameters:
+- Embedding size: 128
+- Hidden size: 256
+- Layers: 1
+
+## Training Configuration
+
+- Sequence length: 64
+- Batch size: 256
+- Optimizer: AdamW
+- Learning rate: 3e-4
+- Epochs: 5
+
+## Metrics
+
+- Cross entropy loss
+- Perplexity
+- Training throughput
+- FLOPs estimate
+
+## Results
+
+- Final Training Loss: 1.42
+- Validation Loss: 1.51
+- Test Loss: 1.53
+- Validation Perplexity: 4.52
+- Accuracy: approximately 75%
+- Test Perplexity: 4.61
+>>>>>>> 846cbd33afffc4e9daa7f4ef31339abf64c459c0
